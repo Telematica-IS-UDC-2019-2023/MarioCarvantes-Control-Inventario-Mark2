@@ -1,27 +1,33 @@
-import Productos from "./js/productos.js"
 export default class Inventario{
 
     constructor(){
-        this.Lista = []  
+        this.inicio = null  
     }
 }
 
-AgregarNuevoP()
-EliminarPorC()
-BuscarPorC()
-RecuperarAllP()
-RecuperarInvertidoP()
-IndicarPosicionInsertar()
-import Productos from "./js/productos.js"
-export default class Inventario{
-
-    constructor(){
-        this.Lista = []  
+AgregarNuevoP(nuevo){
+    if(this.inicio === null){
+        this.inicio = nuevo
+    }else{
+        let t = this.inicio
+        while(t.next != null){
+            t.next = nuevo
+        }
     }
 }
 
-AgregarNuevoP()
-EliminarPorC()
+EliminarPorC(codi){
+    let t = this.inicio
+    if(codi === inicio){
+        this.inico = t.next.next
+    } else{
+        while(t.next.codigo != codi){
+            t = t.next
+        }
+    }
+}
+
+
 BuscarPorC()
 RecuperarAllP()
 RecuperarInvertidoP()
