@@ -48,9 +48,7 @@ export default class Inventario{
     //AKA LISTA INVERTIDA
     RecuperarInvertidoP()
     
-    IndicarPosicionInsertar(nuevon, posicion){
-
-    }
+    IndicarPosicionInsertar()
     
 }
 

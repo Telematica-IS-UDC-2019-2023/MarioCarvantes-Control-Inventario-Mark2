@@ -16,3 +16,13 @@ var btnBuscar = document.querySelector("#btnBuscar")
 var btnListar = document.querySelector("#btnListar")
 var btnListarInvertida = document.querySelector("#btnListarInvertida")
 var btnInsertar = document.querySelector("#btnInsertar")
+
+var Inventario = new Inventario
+
+btnAgregarP.addEventListener("click", ()=> {
+    let producto = new Producto (CodiP.value, nombreP.value, DescripcionP.value, Number(CantidadP.value),Number(CostoP.value))
+
+    console.log(inventario)
+})
+
+btnEliminar.addEventListener("click", )
