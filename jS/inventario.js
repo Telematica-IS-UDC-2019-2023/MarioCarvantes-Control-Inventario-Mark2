@@ -46,17 +46,11 @@ export default class Inventario{
         return all
     }
     //AKA LISTA INVERTIDA
-    RecuperarInvertidoP(){
-        let t = t.inicio
-        let t = this.inicio
-        while(t != null){
-            all += t.nombre + ""
-            t = t.next
-        }
-        return all
-    }
+    RecuperarInvertidoP()
     
-    IndicarPosicionInsertar()
+    IndicarPosicionInsertar(nuevon, posicion){
+
+    }
     
 }
 
